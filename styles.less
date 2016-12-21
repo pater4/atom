@@ -1,0 +1,71 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}
+
+.indent-guide-improved {
+  background-color: #555;
+  &.indent-guide-stack {
+    background-color: #050;
+    &.indent-guide-active {
+      background-color: #933;
+    }
+  }
+}
+
+.terminal::before {
+  content: "";
+  background-image: url("http://www.animg.net/wp-content/uploads/2011/01/animgnet_ikamusume006.jpg");
+  background-color: #080808 !important;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: right top;
+  background-attachment: fixed;
+  z-index: 0;
+  -webkit-filter: blur(3px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.terminal * {
+  z-index: 1;
+  background: none;
+}
+
+.tab-bar {
+  .tab {
+    display: none;
+  }
+  .tab.active {
+    display: block;
+    background: none !important;
+    .title {
+      background: none !important;
+    }
+  }
+}
+
+
+linter-panel, linter-message, .panel-bottom {
+  background: none !important;
+}

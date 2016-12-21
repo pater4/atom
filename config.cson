@@ -1,0 +1,70 @@
+"*":
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+  "color-picker":
+    automaticReplace: true
+  core:
+    disabledPackages: [
+      "git-diff"
+      "linter-phpcs"
+    ]
+    projectHome: "/Users/t.sakuma/Project"
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "ricty discord"
+  "editor-background":
+    box3d: {}
+    image:
+      backgroundSize: "cover"
+      blurRadius: 5
+      customOverlayColor: true
+      opacity: 7
+      overlayColor: "#000000"
+      url: "http://i1.wp.com/anihonetwallpaper.com/image/2014/09/Anihonetwallpaper10575.jpg"
+    other:
+      treeViewOpacity: 1
+    text:
+      opacity: 35
+  "exception-reporting":
+    userId: "2090d39d-0032-c2ff-13a9-fca69a2cf611"
+  "git-diff":
+    showIconsInEditorGutter: true
+  linter:
+    showErrorPanel: false
+  "linter-phpcs": {}
+  "linter-phpmd":
+    executablePath: "/Users/t.sakuma/.composer/vendor/bin/phpmd"
+    rulesets: "/Users/t.sakuma/.atom/ruleset.xml"
+  "markdown-preview":
+    useGitHubStyle: true
+  "one-dark-ui": {}
+  "plantuml-viewer":
+    graphvizDotExecutable: "/usr/local/bin/dot"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.php"
+    ]
+  tabs: {}
+  "terminal-plus":
+    core:
+      shell: "/bin/zsh"
+    style:
+      defaultPanelHeight: "100%"
+      fontFamily: "ricty discord"
+      fontSize: "20"
+    toggles: {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".html.php.text":
+  editor:
+    showIndentGuide: false
+    showInvisibles: true
+    tabLength: 4
