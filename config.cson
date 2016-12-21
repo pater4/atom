@@ -9,7 +9,7 @@
       "git-diff"
       "linter-phpcs"
     ]
-    projectHome: "/Users/t.sakuma/Project"
+    projectHome: "/Users/t.sakuma"
     telemetryConsent: "no"
   editor:
     fontFamily: "ricty discord"
