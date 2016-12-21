@@ -30,18 +30,18 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
-'atom-text-editor.vim-mode:not(.insert-mode)':
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
   'alt-j': 'multi-cursor:expandDown'
   'alt-k': 'multi-cursor:expandUp'
   'alt-l': 'core:select-right'
   'alt-h': 'core:select-left'
 
-'atom-text-editor.vim-mode.normal-mode, atom-text-editor.vim-mode.visual-mode':
+'atom-text-editor.vim-mode-plus.normal-mode, atom-text-editor.vim-mode-plus.visual-mode':
   'space m': 'quick-highlight:toggle'
   'space M': 'quick-highlight:clear'
 
-'atom-text-editor.vim-mode':
-  'ctrl-k': 'vim-mode:reset-normal-mode'
+'atom-text-editor.vim-mode-plus':
+  'ctrl-k': 'vim-mode-plus:reset-normal-mode'
 
-'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
   'ctrl-j': 'core:save'
